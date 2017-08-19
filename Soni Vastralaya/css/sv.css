@@ -1,0 +1,371 @@
+@font-face {
+    font-family: lato;
+    src:url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: futura;
+    src:url(../fonts/FuturaLT.ttf);
+}
+@font-face {
+    font-family: alex-brush;
+    src:url(../fonts/AlexBrush-Regular.ttf);
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#owl-demo2 .item{
+  margin: 3px;
+}
+#owl-demo2 .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.navbar-default {
+    background-color: rgb(210, 173, 51);
+    border-color: transparent;
+    box-shadow: 0px 0px 5px 1px #9f9f9f;
+}
+.navbar-nav>li>a, a.navbar-brand {
+    font-family: futura;
+    font-size: 1.8rem;
+    color: white !important;
+    letter-spacing: 1px;
+}
+section#sec-1 {
+    position: relative;
+    overflow: hidden;
+}
+.main-slider {
+    height: 100vh;
+}
+.logo img {
+    max-width: 380px;
+}
+p.tagline {
+    font-family: alex-brush;
+    font-size: 4rem;
+    margin-top: -50px;
+    color: black;
+    line-height: 35px;
+}
+p.phone {
+    font-family: lato;
+    font-size: 18px;
+    color: black;
+}
+.category.col-md-4.col-xs-12 {
+    padding: 0;
+    overflow: hidden;
+}
+section.footer-section {
+    background: #d2ad33;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.category-sec1, .category-sec2, .category-sec3 {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-size: cover !important;
+    transition: ease all 1s;
+}
+.abt-txt h1 {
+    font-family: alex-brush;
+    font-size: 40px;
+    color: black;
+    line-height: 5px;
+    margin-top: 7%;
+}
+.abt-txt {
+    padding: 0 50px;
+}
+.abt-txt p {
+    font-family: lato;
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+
+}
+h1.abt-head {
+    font-family: futura;
+    font-size: 35px;
+    color: #a22521;
+    margin-top: 3%;
+}
+p.abt-pp {
+    font-family: lato;
+    font-size: 18px;
+    color: black;
+    padding: 10px 70px;
+}
+.footer-logo img {
+    max-width: 150px;
+}
+section#sec-7 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url(../images/gall-back.jpg);
+    background-size: cover;
+}
+.pic img {
+    max-width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #d2ad33;
+    padding: 5px;
+}
+button.map {
+    padding: 5px 50px;
+    font-size: 20px;
+    font-family: futura;
+    letter-spacing: 2px;
+    background: #ffffff;
+    border: 1px solid white;
+    color: #d2ad33;
+}
+.footer-review h3 {
+    font-family: futura;
+    color: #a22521;
+    font-size: 20px;
+}
+p.b-logo {
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.footer-review img {
+    max-width: 100%;
+}
+/*
+.row.below-footer {
+    margin-top: 50px;
+}
+*/
+section#sec-5 {
+    padding-bottom: 3%;
+}
+section#sec-6 {
+    padding-bottom: 4%;
+}
+section#sec-3 hr, section#sec-5 hr {
+    border-top: 1px solid #d2ad33  !important;
+    border-bottom: 1px solid #d2ad33 !important;
+    padding: 1px !important;
+    margin-top: -5px;
+    width: 25%;
+}
+.category-sec1 {
+    background: url(../images/women-cat.jpg);
+}
+.category-sec2 {
+    background: url(../images/men-cat.jpg);
+}
+.category-sec3 {
+    background: url(../images/offer-cat.jpg);
+}
+.category-sec1:hover, .category-sec2:hover, .category-sec3:hover {
+    transform: scale(1.05);
+}
+.category-sec1 p, .category-sec2 p, .category-sec3 p {
+    color: white;
+    font-family: futura;
+    text-shadow: 2px 2px 5px black;
+}
+.category-sec1 h2, .category-sec2 h2, .category-sec3 h2 {
+    color: white;
+    font-family: futura;
+    text-shadow: 2px 2px 5px black;
+}
+.category-sec1 h2, .category-sec2 h2, .category-sec3 h2 {
+    font-size: 35px;
+}
+.category-sec1 p, .category-sec2 p, .category-sec3 p {
+    font-size: 18px;
+
+}
+section.footer-section p {
+    color: white;
+    font-family: lato;
+    font-size: 16px;
+}
+.social-footer ul li {
+    display: inline;
+}
+.social-footer .fa {
+    color: white;
+    font-size: 25px;
+    margin: 0 3px;
+}
+.social-footer ul {
+    margin-left: -40px;
+}
+.imt.col-md-12.col-xs-12 {
+    padding: 0;
+}
+.mid-sec h1 {
+    font-family: futura;
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 5px #000000;
+}
+.mid-sec {
+    background: url(../images/mid-img.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.footer-section h1 {
+    font-size: 20px;
+    font-family: futura;
+    color: white;
+    letter-spacing: 1px;
+}
+.mid-sec {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+button.shop-btn {
+    background: #d2ad33;
+    border: 2px solid #d2ad33;
+    padding: 5px 10px;
+    color: white;
+    font-family: futura;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.mid-sec p {
+    color: white;
+    font-size: 18px;
+    font-family: lato;
+    margin-top: -15px;
+    text-shadow: 2px 2px 5px black;
+}
+button.read-more, button.locate {
+    background: transparent;
+    border: 2px solid #a22521;
+    padding: 5px 15px;
+    font-family: futura;
+    color: #a22521;
+    font-size: 16px;
+    margin: 10px 10px 15px 10px;
+    transition: ease all 0.5s;
+}
+button.read-more:hover, button.locate:hover {
+    background: #a22521;
+    color: white;
+    transition: ease all 0.5s;
+}
+#logo-caption {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    top: 48%;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+}
+section#sec-1 .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.item h4 {
+    font-family: futura;
+    color: black;
+    margin-top: 25px;
+}
+@media (min-width: 751px) {
+.navbar-right {
+    margin-right: 0;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+}
+.slider-sec.col-md-12.col-xs-12 {
+    padding: 0 !important;
+}
+}
+@media (max-width: 1024px) {
+.brand img {
+    max-width: 100% !important;
+}
+}
+@media (max-width: 750px) {
+.logo img {
+    max-width: 250px;
+    margin-top: 15%;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #d2ad33;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff !important;
+}
+.navbar-toggle {
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+div#owl-demo {
+    display: none !important;
+}
+section#sec-1 {
+    background: url(../images/mob-img.jpg);
+    background-size: cover;
+}
+p.tagline {
+    font-size: 3rem;
+    margin-top: -25px;
+    line-height: 25px;
+    padding: 0 15px;
+    text-shadow: 1px 1px 2px white;
+}
+p.phone {
+    font-size: 16px;
+}
+h1.abt-head {
+    font-size: 25px;
+    margin-top: 10%;
+}
+section#sec-3 hr, section#sec-5 hr {
+    width: 60%;
+}
+.abt-img img {
+    max-width: 100%;
+}
+.abt-txt {
+    padding: 0 0;
+}
+.abt-txt h1 {
+    line-height: 40px;
+    text-align: center;
+}
+.mid-sec h1 {
+    font-size: 30px;
+}
+.mid-sec p {
+    font-size: 16px;
+}
+button.shop-btn {
+    font-size: 16px;
+}
+p.abt-pp {
+    padding: 0;
+    text-align: justify;
+}
+.brand img {
+    max-width: 100% !important;
+}
+button.read-more, button.locate {
+    background: #a22521;
+    border: 2px solid #a22521;
+    color: #ffffff;
+}
+.pic img {
+    padding: 2px;
+}
+}
